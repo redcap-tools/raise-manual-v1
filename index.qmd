@@ -24,9 +24,9 @@ If you would like to discuss the content or receive further help, see the [Help 
 
 ## How to Cite this Work {#sec-welcome-cite}
 
-Beasley WH, Wilson T (Eds.) (2024).
+Balise R, Beasley WH, Yeaman K (Eds.) (2024).
 _Training Manual for RAISE: REDCap and R Integration for Scientific Excellence_.
-DOI: [10.5281/zenodo.14003228](https://zenodo.org/record/14003228)
+DOI: [10.5281/zenodo.14047108](https://zenodo.org/record/14047108)
 
 Editorial Committee:
 
