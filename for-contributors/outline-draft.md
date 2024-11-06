@@ -24,7 +24,7 @@ Draft of RAISE Manual
 1.  Part: Security
     1.  Principle of least privilege
 
-1.  Advanced Topics
+1.  Part: Advanced Topics
     1.  Chapter: Multi-site studies
         1.  Multiple sites, one central project
         1.  Multiple sites, duplicated distributed project
