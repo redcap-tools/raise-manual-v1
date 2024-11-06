@@ -1,10 +1,20 @@
+# bookdown temp files & directories
+#   from https://github.com/rstudio/bookdown/blob/main/inst/examples/.gitignore
+_bookdown_files
+_book
+docs
+redcap-manual-v1.log
+images/dedication.lyx
+redcap-manual-v1.rds
+
+/.quarto/
+
 # History files
 .Rhistory
 .Rapp.history
 
 # Session Data files
 .RData
-.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -39,11 +49,7 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
+# R Environment Variables
+*.DS_Store
 
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+/.luarc.json
