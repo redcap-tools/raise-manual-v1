@@ -1,0 +1,49 @@
+# Welcome {.unnumbered #sec-welcome}
+
+Welcome to [*Training Manual for RAISE: REDCap and R Integration for Scientific Excellence*](https://redcap-tools.github.io/raise-manual-v1/).
+This collection of documents covers our recommendations for conducting research at your institution using R and REDCap.
+
+As we write this manual,
+we hope you feel comfortable editing existing material or adding new lessons,
+in order to improve the quality of all our work.
+
+Sincerely,
+
+_The Editorial Committee_
+
+## How to Contribute {#sec-welcome-contribute}
+
+We welcome suggestions, edits, and larger contributions to this guide.
+This book is typeset in Markdown, rendered with [Quarto](https://quarto.org/), and hosted on GitHub.
+For errors or requests, please submit an [Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+to the book's [issue tracker](https://github.com/redcap-tools/raise-manual-v1/issues).
+To make larger or direct contributions, please make a [pull request](https://github.com/redcap-tools/raise-manual-v1/pulls) using the standard [GitHub workflow](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
+
+If you would like to contribute but are unfamiliar with any of these technologies, please feel free to email <to be created: redcap@ouhsc.edu> with comments and suggestions for changes.
+If you would like to discuss the content or receive further help, see the [Help and Support Chapter](begin/support.md).
+
+## How to Cite this Work {#sec-welcome-cite}
+
+Beasley WH, Wilson T (Eds.) (2024).
+_Training Manual for RAISE: REDCap and R Integration for Scientific Excellence_.
+DOI: [10.5281/zenodo.14003228](https://zenodo.org/record/14003228)
+
+Editorial Committee:
+
+* [William H. Beasley](https://orcid.org/0000-0002-5613-5006): November 2024 - present
+* [Kiley Yeaman](https://www.linkedin.com/in/kileyyeaman/): November 2024 - present
+* [Raymond Balise](https://orcid.org/0000-0002-9856-5901): November 2024 - present
+
+## Licensing {#sec-welcome-licensing}
+
+This book is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+Individual chapters are as well, unless otherwise noted.
+
+<!-- ## Funding {#sec-welcome-funding}
+
+This content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health or the N3C program.
+
+Any analyses herein were conducted using the NCATS N3C Data Enclave supported by NCATS U24 TR002306, Axel Informatics Subcontract Number: NCATS-P00438-B and made possible because of the patients whose data was contributed by [partner organizations](https://covid.cd2h.org/dtas).
+We gratefully acknowledge the [scientists](https://covid.cd2h.org/acknowledgements) who have contributed to the on-going development of this community resource [@haendel_2020].
+
+Funding and support for individual authors is listed in @sec-funding. -->

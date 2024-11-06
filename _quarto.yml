@@ -1,0 +1,121 @@
+project:
+  type: book
+
+bibliography: references.bib
+
+google-scholar: true
+
+# This is hack to make the
+# abstract: "Eder, Franz. 2022. *Politikwissenschaftliches Arbeiten: Eine Einführung*. Innsbruck: Institut für Politikwissenschaft, Universität Innsbruck. [https://doi.org/10.25651/4.2022.0001](https://doi.org/10.25651/4.2022.0001)."
+
+format:
+  html:
+    theme:
+      light: [assets/theme-light.scss, assets/tables-light.scss, zephyr]
+      dark: [assets/theme-dark.scss, assets/tables-dark.scss, slate]
+    css:
+    - assets/font-awesome.css
+    - assets/tables.css
+    # - assets/citation.css
+    link-external-newwindow: true
+    # template-partials:
+    # - title-block.html
+    # title-block-banner: "#64296B" # N3C purple
+    # title-block-banner: images/g2n3c-banner-1.png # source: https://www.canva.com/design/DAF-OFqO17Q/RlgofmSbRCd9Pc6u90weTg/edit?referrer=banners-landing-page
+    # title-block-banner-color: "#FCB754" # N3C gold
+    # filters:
+    # - lightbox
+    lightbox:
+      match: auto
+      effect: zoom
+  # pdf:
+  #   documentclass: scrreprt
+  # epub:
+  #   cover-image: images/logo.png
+
+book:
+  title: "Training Manual for RAISE"
+  subtitle: "REDCap and R Integration for Scientific Excellence"
+  date: last-modified
+  # doi: 10.5281/zenodo.14003228
+
+  # logo: images/n3c-logo-circle-large-0.png
+  # favicon: images/logo.png
+  # cover-image: images/n3c_logo_slim.png
+  # cover-image-alt: images/n3c-logo-circle-large-0.png
+  # favicon: images/n3c-logo-circle-large-0.png
+  repo-url: https://github.com/redcap-tools/raise-manual-v1
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  sharing: [twitter, facebook]
+  # downloads: [epub]
+  # downloads: [pdf, epub]
+  google-analytics: G-H3G33LRV8Y
+
+  # abstract: "Eder, Franz. 2022. *Politikwissenschaftliches Arbeiten: Eine Einführung*. Innsbruck: Institut für Politikwissenschaft, Universität Innsbruck. [https://doi.org/10.25651/4.2022.0001](https://doi.org/10.25651/4.2022.0001)."
+
+  page-footer:
+    left: |
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> CC BY-NC-ND 4</a>
+    # right: |
+    #   Part of <a href="https://ouhsc.edu/">OU Health Sciences</a>.
+
+  editor:
+  - name: Raymond Balise
+    orcid: 0000-0002-9856-5901
+  - name: Kiley Yeaman
+  - name: William H Beasley
+    affiliation: University of Oklahoma Health Sciences
+    affiliation-url: https://research.ouhsc.edu/ocri
+    email: wibeasley@hotmail.com
+    orcid: 0000-0002-5613-5006
+  - name: Thomas Wilson
+    affiliation: University of Oklahoma Health Sciences
+    affiliation-url: https://research.ouhsc.edu/ocri
+    email: thomas-wilson@ouhsc.edu
+    orcid: 0009-0009-1239-1348
+
+  chapters:
+  - index.qmd
+
+  # - part: Data Entry for New Users
+  #   chapters:
+  #   - begin/support.md
+  #   - begin/access.md
+  #   - begin/vocab.md
+  #   - begin/create.md
+  #   - begin/dashboard.md
+  #   - begin/randomize.md
+  #   - begin/cdis.md
+  #   - begin/security.md
+
+  # - part: Project Design (Basic)
+  #   chapters:
+  # #   - designbas/vocab.md
+  #   - designbas/variable.md
+
+  # - part: Project Design (Advanced)
+  #   chapters:
+  #   - designadv/econsent.md
+
+  # - part: Project Admin
+  #   chapters:
+  #   - adminpr/user.md
+
+  # - part: External Connectivity
+  #   chapters:
+  #   - external/mosio.md
+
+  # - part: Checklists
+  #   chapters:
+  #   - check/testing.md
+  #   - check/testing2.md
+
+  # - part: Troubleshooting
+  #   chapters:
+  #   - trouble/login.md
+  # - part: Back Matter
+  #   chapters:
+  #   - chapters/funding.md
+  #   - references.qmd
+  #   - chapters/colophon.qmd
