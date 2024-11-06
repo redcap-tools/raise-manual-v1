@@ -1,0 +1,12 @@
+table {
+  overflow-x: auto;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+caption {
+  text-align: left;
+  caption-side: left;
+}

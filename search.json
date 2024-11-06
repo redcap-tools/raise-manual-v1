@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Training Manual for RAISE",
+    "section": "",
+    "text": "Welcome\nWelcome to Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. This collection of documents covers our recommendations for conducting research at your institution using R and REDCap.\nAs we write this manual, we hope you feel comfortable editing existing material or adding new lessons, in order to improve the quality of all our work.\nSincerely,\nThe Editorial Committee",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-welcome-contribute",
+    "href": "index.html#sec-welcome-contribute",
+    "title": "Training Manual for RAISE",
+    "section": "How to Contribute",
+    "text": "How to Contribute\nWe welcome suggestions, edits, and larger contributions to this guide. This book is typeset in Markdown, rendered with Quarto, and hosted on GitHub. For errors or requests, please submit an Issue to the book’s issue tracker. To make larger or direct contributions, please make a pull request using the standard GitHub workflow.\nIf you would like to contribute but are unfamiliar with any of these technologies, please feel free to email &lt;to be created: redcap@ouhsc.edu&gt; with comments and suggestions for changes. If you would like to discuss the content or receive further help, see the Help and Support Chapter.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-welcome-cite",
+    "href": "index.html#sec-welcome-cite",
+    "title": "Training Manual for RAISE",
+    "section": "How to Cite this Work",
+    "text": "How to Cite this Work\nBeasley WH, Wilson T (Eds.) (2024). Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. DOI: 10.5281/zenodo.14003228\nEditorial Committee:\n\nWilliam H. Beasley: November 2024 - present\nKiley Yeaman: November 2024 - present\nRaymond Balise: November 2024 - present",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-welcome-licensing",
+    "href": "index.html#sec-welcome-licensing",
+    "title": "Training Manual for RAISE",
+    "section": "Licensing",
+    "text": "Licensing\nThis book is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. Individual chapters are as well, unless otherwise noted.",
+    "crumbs": [
+      "Welcome"
+    ]
+  }
+]
