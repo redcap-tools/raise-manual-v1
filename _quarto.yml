@@ -37,7 +37,7 @@ book:
   title: "Training Manual for RAISE"
   subtitle: "REDCap and R Integration for Scientific Excellence"
   date: last-modified
-  # doi: 10.5281/zenodo.14003228
+  doi: 10.5281/zenodo.14047108
 
   # logo: images/n3c-logo-circle-large-0.png
   # favicon: images/logo.png
@@ -50,7 +50,7 @@ book:
   sharing: [twitter, facebook]
   # downloads: [epub]
   # downloads: [pdf, epub]
-  google-analytics: G-H3G33LRV8Y
+  # google-analytics: G-H3G33LRV8Y
 
   # abstract: "Eder, Franz. 2022. *Politikwissenschaftliches Arbeiten: Eine Einführung*. Innsbruck: Institut für Politikwissenschaft, Universität Innsbruck. [https://doi.org/10.25651/4.2022.0001](https://doi.org/10.25651/4.2022.0001)."
 
