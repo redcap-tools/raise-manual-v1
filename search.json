@@ -1,10 +1,32 @@
 [
   {
+    "objectID": "begin/overview.html",
+    "href": "begin/overview.html",
+    "title": "1  Overviews of R and REDCap",
+    "section": "",
+    "text": "1.1 R\nThe origins of R began with S, and is well documented in …\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "crumbs": [
+      "Beginning",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overviews of R and REDCap</span>"
+    ]
+  },
+  {
+    "objectID": "begin/overview.html#sec-begin-overview-redcap",
+    "href": "begin/overview.html#sec-begin-overview-redcap",
+    "title": "1  Overviews of R and REDCap",
+    "section": "1.2 REDCap",
+    "text": "1.2 REDCap\nREDCap has been developed by Vanderbilt …\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\nAdditional Chapter Details\n\n\n\nThis chapter was started in November 2024. If you have suggested modifications or additions, please see How to Contribute on the book’s welcome page.",
+    "crumbs": [
+      "Beginning",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overviews of R and REDCap</span>"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Training Manual for RAISE",
     "section": "",
-    "text": "Welcome\nWelcome to Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. This collection of documents covers our recommendations for conducting research at your institution using R and REDCap.\nAs we write this manual, we hope you feel comfortable editing existing material or adding new lessons, in order to improve the quality of all our work.\nSincerely,\nThe Editorial Committee",
+    "text": "Welcome\nWelcome to Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. This collection of documents covers our recommendations for conducting research at your institution using R and REDCap.\nAs we write this manual, we hope you feel comfortable editing existing material or adding new lessons, in order to improve the quality of all our work.",
     "crumbs": [
       "Welcome"
     ]
@@ -14,7 +36,7 @@
     "href": "index.html#sec-welcome-contribute",
     "title": "Training Manual for RAISE",
     "section": "How to Contribute",
-    "text": "How to Contribute\nWe welcome suggestions, edits, and larger contributions to this guide. This book is typeset in Markdown, rendered with Quarto, and hosted on GitHub. For errors or requests, please submit an Issue to the book’s issue tracker. To make larger or direct contributions, please make a pull request using the standard GitHub workflow.\nIf you would like to contribute but are unfamiliar with any of these technologies, please feel free to email &lt;to be created: redcap@ouhsc.edu&gt; with comments and suggestions for changes. If you would like to discuss the content or receive further help, see the Help and Support Chapter.",
+    "text": "How to Contribute\nWe welcome suggestions, edits, and larger contributions to this guide. This book is typeset in Markdown, rendered with Quarto, and hosted on GitHub. For errors or requests, please submit an Issue to the book’s issue tracker. To make larger or direct contributions, please make a pull request using the standard GitHub workflow.\nIf you would like to contribute but are unfamiliar with any of these technologies, please email an editorial committee member.",
     "crumbs": [
       "Welcome"
     ]
@@ -24,7 +46,7 @@
     "href": "index.html#sec-welcome-cite",
     "title": "Training Manual for RAISE",
     "section": "How to Cite this Work",
-    "text": "How to Cite this Work\nBalise R, Beasley WH, Yeaman K (Eds.) (2024). Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. DOI: 10.5281/zenodo.14047108\nEditorial Committee:\n\nWilliam H. Beasley: November 2024 - present\nKiley Yeaman: November 2024 - present\nRaymond Balise: November 2024 - present",
+    "text": "How to Cite this Work\nBalise R, Beasley WH, Yeaman K (Eds.) (2024). Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. DOI: 10.5281/zenodo.14047108\nEditorial Committee:\n\nWilliam H. Beasley: November 2024 - present\nKiley Yeaman: November 2024 - present\nRaymond Balise: November 2024 - present\n\nTo cite the REDCap software, please see the suggestions at https://projectredcap.org/resources/citations/.",
     "crumbs": [
       "Welcome"
     ]
