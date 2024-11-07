@@ -76,7 +76,7 @@ book:
   - part: Beginning
     chapters:
     - begin/overview.md
-  #   - begin/access.md
+    - begin/access.md
   #   - begin/vocab.md
   #   - begin/create.md
   #   - begin/dashboard.md
