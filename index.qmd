@@ -7,10 +7,6 @@ As we write this manual,
 we hope you feel comfortable editing existing material or adding new lessons,
 in order to improve the quality of all our work.
 
-Sincerely,
-
-_The Editorial Committee_
-
 ## How to Contribute {#sec-welcome-contribute}
 
 We welcome suggestions, edits, and larger contributions to this guide.
@@ -19,8 +15,8 @@ For errors or requests, please submit an [Issue](https://docs.github.com/en/issu
 to the book's [issue tracker](https://github.com/redcap-tools/raise-manual-v1/issues).
 To make larger or direct contributions, please make a [pull request](https://github.com/redcap-tools/raise-manual-v1/pulls) using the standard [GitHub workflow](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
 
-If you would like to contribute but are unfamiliar with any of these technologies, please feel free to email <to be created: redcap@ouhsc.edu> with comments and suggestions for changes.
-If you would like to discuss the content or receive further help, see the [Help and Support Chapter](begin/support.md).
+If you would like to contribute but are unfamiliar with any of these technologies,
+please email an editorial committee member.
 
 ## How to Cite this Work {#sec-welcome-cite}
 
@@ -33,6 +29,9 @@ Editorial Committee:
 * [William H. Beasley](https://orcid.org/0000-0002-5613-5006): November 2024 - present
 * [Kiley Yeaman](https://www.linkedin.com/in/kileyyeaman/): November 2024 - present
 * [Raymond Balise](https://orcid.org/0000-0002-9856-5901): November 2024 - present
+
+To cite the REDCap software, please see the suggestions at
+<https://projectredcap.org/resources/citations/>.
 
 ## Licensing {#sec-welcome-licensing}
 
