@@ -79,33 +79,6 @@ book:
     - begin/access.md
     - begin/manual.md
 
-  # - part: Project Design (Basic)
-  #   chapters:
-  # #   - designbas/vocab.md
-  #   - designbas/variable.md
-
-  # - part: Project Design (Advanced)
-  #   chapters:
-  #   - designadv/econsent.md
-
-  # - part: Project Admin
-  #   chapters:
-  #   - adminpr/user.md
-
-  # - part: External Connectivity
-  #   chapters:
-  #   - external/mosio.md
-
-  # - part: Checklists
-  #   chapters:
-  #   - check/testing.md
-  #   - check/testing2.md
-
-  # - part: Troubleshooting
-  #   chapters:
-  #   - trouble/login.md
-  # - part: Back Matter
-  #   chapters:
-  #   - chapters/funding.md
-  #   - references.qmd
-  #   - chapters/colophon.qmd
+  - part: Automation Basics
+    chapters:
+    - basic/read.md
