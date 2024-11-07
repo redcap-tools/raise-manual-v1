@@ -22,6 +22,127 @@
     ]
   },
   {
+    "objectID": "begin/access.html",
+    "href": "begin/access.html",
+    "title": "2  Access to REDCap",
+    "section": "",
+    "text": "2.1 Server\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "crumbs": [
+      "Beginning",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Access to REDCap</span>"
+    ]
+  },
+  {
+    "objectID": "begin/access.html#sec-begin-overview-project",
+    "href": "begin/access.html#sec-begin-overview-project",
+    "title": "2  Access to REDCap",
+    "section": "2.2 Project",
+    "text": "2.2 Project\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "crumbs": [
+      "Beginning",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Access to REDCap</span>"
+    ]
+  },
+  {
+    "objectID": "begin/access.html#sec-begin-overview-tokens",
+    "href": "begin/access.html#sec-begin-overview-tokens",
+    "title": "2  Access to REDCap",
+    "section": "2.3 Tokens",
+    "text": "2.3 Tokens\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n2.3.1 Export\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n2.3.2 Import\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\nAdditional Chapter Details\n\n\n\nThis chapter was started in November 2024. If you have suggested modifications or additions, please see How to Contribute on the book’s welcome page.",
+    "crumbs": [
+      "Beginning",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Access to REDCap</span>"
+    ]
+  },
+  {
+    "objectID": "begin/manual.html",
+    "href": "begin/manual.html",
+    "title": "3  Manual Extract",
+    "section": "",
+    "text": "3.1 Strengths and weaknesses of the current export\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "crumbs": [
+      "Beginning",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Manual Extract</span>"
+    ]
+  },
+  {
+    "objectID": "begin/manual.html#sec-begin-manual-procon",
+    "href": "begin/manual.html#sec-begin-manual-procon",
+    "title": "3  Manual Extract",
+    "section": "",
+    "text": "3.1.1 Pros\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n3.1.2 Cons\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "crumbs": [
+      "Beginning",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Manual Extract</span>"
+    ]
+  },
+  {
+    "objectID": "begin/manual.html#sec-begin-manual-hmisctidyverse",
+    "href": "begin/manual.html#sec-begin-manual-hmisctidyverse",
+    "title": "3  Manual Extract",
+    "section": "3.2 Issues with hmisc and tidyverse",
+    "text": "3.2 Issues with hmisc and tidyverse\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\nAdditional Chapter Details\n\n\n\nThis chapter was started in November 2024. If you have suggested modifications or additions, please see How to Contribute on the book’s welcome page.",
+    "crumbs": [
+      "Beginning",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Manual Extract</span>"
+    ]
+  },
+  {
+    "objectID": "basic/read.html",
+    "href": "basic/read.html",
+    "title": "4  Read/export via API",
+    "section": "",
+    "text": "4.1 Why bother with the API\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u",
+    "crumbs": [
+      "Automation Basics",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Read/export via API</span>"
+    ]
+  },
+  {
+    "objectID": "basic/read.html#sec-basic-read-how",
+    "href": "basic/read.html#sec-basic-read-how",
+    "title": "4  Read/export via API",
+    "section": "4.2 How to use the API",
+    "text": "4.2 How to use the API\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u\n\n4.2.1 Minimally specify a URL and token\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u",
+    "crumbs": [
+      "Automation Basics",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Read/export via API</span>"
+    ]
+  },
+  {
+    "objectID": "basic/read.html#sec-basic-read-token",
+    "href": "basic/read.html#sec-basic-read-token",
+    "title": "4  Read/export via API",
+    "section": "4.3 Protecting your token",
+    "text": "4.3 Protecting your token\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u",
+    "crumbs": [
+      "Automation Basics",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Read/export via API</span>"
+    ]
+  },
+  {
+    "objectID": "basic/read.html#sec-basic-read-quick",
+    "href": "basic/read.html#sec-basic-read-quick",
+    "title": "4  Read/export via API",
+    "section": "4.4 Quick ways to do an export",
+    "text": "4.4 Quick ways to do an export\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u\n\n4.4.1 REDCapR\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u\n\n\n4.4.2 REDCapTidieR\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u\n\n\n4.4.3 tidyREDCap\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u",
+    "crumbs": [
+      "Automation Basics",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Read/export via API</span>"
+    ]
+  },
+  {
+    "objectID": "basic/read.html#sec-basic-read-playground",
+    "href": "basic/read.html#sec-basic-read-playground",
+    "title": "4  Read/export via API",
+    "section": "4.5 The full power of the API with API playground stuff",
+    "text": "4.5 The full power of the API with API playground stuff\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u\n\n\n\n\n\n\nAdditional Chapter Details\n\n\n\nThis chapter was started in November 2024. If you have suggested modifications or additions, please see How to Contribute on the book’s welcome page.",
+    "crumbs": [
+      "Automation Basics",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Read/export via API</span>"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Training Manual for RAISE",

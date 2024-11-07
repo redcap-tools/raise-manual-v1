@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Raymond Balise">
-<meta name="author" content="William H Beasley">
+<meta name="author" content="Kiley Yeaman">
 
-<title>1&nbsp; Overviews of R and REDCap – Training Manual for RAISE</title>
+<title>2&nbsp; Access to REDCap – Training Manual for RAISE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../begin/access.html" rel="next">
-<link href="../index.html" rel="prev">
+<link href="../begin/manual.html" rel="next">
+<link href="../begin/overview.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -85,10 +84,9 @@ gtag('config', 'G-LBZQS9X7XT', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="../assets/font-awesome.css">
 <link rel="stylesheet" href="../assets/tables.css">
-<meta name="citation_title" content="[[1]{.chapter-number}&nbsp; [Overviews of R and REDCap]{.chapter-title}]{#sec-begin-overview .quarto-section-identifier}">
-<meta name="citation_abstract" content="Using the R to manipulate and analyze data captured and stored in REDCap is a beautiful... This chapter describes how they can work well together, and provides references for those who would like to learn more about each individual software program.">
-<meta name="citation_author" content="Raymond Balise">
-<meta name="citation_author" content="William H Beasley">
+<meta name="citation_title" content="[[2]{.chapter-number}&nbsp; [Access to REDCap]{.chapter-title}]{#sec-begin-access .quarto-section-identifier}">
+<meta name="citation_abstract" content="Basics of accessing the REDCap server and the specific project through the browser.">
+<meta name="citation_author" content="Kiley Yeaman">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=The elements of statistical learning: Data mining, inference, and prediction;,citation_author=Trevor Hastie;,citation_author=Robert Tibshirani;,citation_author=Jerome H Friedman;,citation_author=Jerome H Friedman;,citation_publication_date=2009;,citation_cover_date=2009;,citation_year=2009;,citation_volume=2;">
 <meta name="citation_reference" content="citation_title=Hands-on machine learning with scikit-learn, keras, and TensorFlow;,citation_author=Aurélien Géron;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;">
@@ -180,7 +178,7 @@ gtag('config', 'G-LBZQS9X7XT', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../begin/overview.html">Beginning</a></li><li class="breadcrumb-item"><a href="../begin/overview.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Overviews of R and REDCap</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../begin/overview.html">Beginning</a></li><li class="breadcrumb-item"><a href="../begin/access.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Access to REDCap</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -243,13 +241,13 @@ gtag('config', 'G-LBZQS9X7XT', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../begin/overview.html" class="sidebar-item-text sidebar-link active">
+  <a href="../begin/overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Overviews of R and REDCap</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../begin/access.html" class="sidebar-item-text sidebar-link">
+  <a href="../begin/access.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Access to REDCap</span></span></a>
   </div>
 </li>
@@ -288,41 +286,36 @@ gtag('config', 'G-LBZQS9X7XT', { 'anonymize_ip': true});
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-begin-overview-r" id="toc-sec-begin-overview-r" class="nav-link active" data-scroll-target="#sec-begin-overview-r"><span class="header-section-number">1.1</span> R</a></li>
-  <li><a href="#sec-begin-overview-redcap" id="toc-sec-begin-overview-redcap" class="nav-link" data-scroll-target="#sec-begin-overview-redcap"><span class="header-section-number">1.2</span> REDCap</a></li>
+  <li><a href="#sec-begin-access-server" id="toc-sec-begin-access-server" class="nav-link active" data-scroll-target="#sec-begin-access-server"><span class="header-section-number">2.1</span> Server</a></li>
+  <li><a href="#sec-begin-overview-project" id="toc-sec-begin-overview-project" class="nav-link" data-scroll-target="#sec-begin-overview-project"><span class="header-section-number">2.2</span> Project</a></li>
+  <li><a href="#sec-begin-overview-tokens" id="toc-sec-begin-overview-tokens" class="nav-link" data-scroll-target="#sec-begin-overview-tokens"><span class="header-section-number">2.3</span> Tokens</a>
+  <ul class="collapse">
+  <li><a href="#sec-begin-overview-tokens-export" id="toc-sec-begin-overview-tokens-export" class="nav-link" data-scroll-target="#sec-begin-overview-tokens-export"><span class="header-section-number">2.3.1</span> Export</a></li>
+  <li><a href="#sec-begin-overview-tokens-import" id="toc-sec-begin-overview-tokens-import" class="nav-link" data-scroll-target="#sec-begin-overview-tokens-import"><span class="header-section-number">2.3.2</span> Import</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/redcap-tools/raise-manual-v1/edit/main/begin/overview.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/redcap-tools/raise-manual-v1/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/redcap-tools/raise-manual-v1/blob/main/begin/overview.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/redcap-tools/raise-manual-v1/edit/main/begin/access.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/redcap-tools/raise-manual-v1/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/redcap-tools/raise-manual-v1/blob/main/begin/access.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../begin/overview.html">Beginning</a></li><li class="breadcrumb-item"><a href="../begin/overview.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Overviews of R and REDCap</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../begin/overview.html">Beginning</a></li><li class="breadcrumb-item"><a href="../begin/access.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Access to REDCap</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-begin-overview" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Overviews of R and REDCap</span></span></h1>
+<h1 class="title"><span id="sec-begin-access" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Access to REDCap</span></span></h1>
 </div>
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Authors</div>
-  <div class="quarto-title-meta-heading">Affiliations</div>
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Raymond Balise <a href="https://orcid.org/0000-0002-9856-5901" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    <p class="author">Kiley Yeaman </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            <a href="https://med.miami.edu/faculty/raymond-balise-phd">
-            University of Miami
-            </a>
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">William H Beasley <a href="mailto:wibeasley@hotmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-5613-5006" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://ouhsc.edu/bbmc/">
-            University of Oklahoma Health Sciences
+            <a href="https://www.chop.edu/">
+            Children’s Hospital of Philadelphia
             </a>
           </p>
       </div>
@@ -338,7 +331,7 @@ gtag('config', 'G-LBZQS9X7XT', { 'anonymize_ip': true});
 <div>
   <div class="abstract">
     <div class="block-title">Abstract</div>
-    Using the R to manipulate and analyze data captured and stored in REDCap is a beautiful… This chapter describes how they can work well together, and provides references for those who would like to learn more about each individual software program.
+    Basics of accessing the REDCap server and the specific project through the browser.
   </div>
 </div>
 
@@ -346,16 +339,25 @@ gtag('config', 'G-LBZQS9X7XT', { 'anonymize_ip': true});
 </header>
 
 
-<p><strong>Chapter Leads</strong>: Raymond Balise</p>
+<p><strong>Chapter Leads</strong>: Kiley Yeaman</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<section id="sec-begin-overview-r" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="sec-begin-overview-r"><span class="header-section-number">1.1</span> R</h2>
-<p>The origins of R began with S, and is well documented in …</p>
+<section id="sec-begin-access-server" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sec-begin-access-server"><span class="header-section-number">2.1</span> Server</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section>
-<section id="sec-begin-overview-redcap" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="sec-begin-overview-redcap"><span class="header-section-number">1.2</span> REDCap</h2>
-<p>REDCap has been developed by Vanderbilt …</p>
+<section id="sec-begin-overview-project" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sec-begin-overview-project"><span class="header-section-number">2.2</span> Project</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+<section id="sec-begin-overview-tokens" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sec-begin-overview-tokens"><span class="header-section-number">2.3</span> Tokens</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<section id="sec-begin-overview-tokens-export" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="sec-begin-overview-tokens-export"><span class="header-section-number">2.3.1</span> Export</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+<section id="sec-begin-overview-tokens-import" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="sec-begin-overview-tokens-import"><span class="header-section-number">2.3.2</span> Import</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -372,6 +374,7 @@ Additional Chapter Details
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -946,13 +949,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Welcome">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
+      <a href="../begin/overview.html" class="pagination-link" aria-label="Overviews of R and REDCap">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Overviews of R and REDCap</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../begin/access.html" class="pagination-link" aria-label="Access to REDCap">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Access to REDCap</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../begin/manual.html" class="pagination-link" aria-label="Manual Extract">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Manual Extract</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -964,7 +967,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/redcap-tools/raise-manual-v1/edit/main/begin/overview.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/redcap-tools/raise-manual-v1/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/redcap-tools/raise-manual-v1/blob/main/begin/overview.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/redcap-tools/raise-manual-v1/edit/main/begin/access.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/redcap-tools/raise-manual-v1/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/redcap-tools/raise-manual-v1/blob/main/begin/access.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
