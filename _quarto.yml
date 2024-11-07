@@ -77,12 +77,7 @@ book:
     chapters:
     - begin/overview.md
     - begin/access.md
-  #   - begin/vocab.md
-  #   - begin/create.md
-  #   - begin/dashboard.md
-  #   - begin/randomize.md
-  #   - begin/cdis.md
-  #   - begin/security.md
+    - begin/manual.md
 
   # - part: Project Design (Basic)
   #   chapters:
