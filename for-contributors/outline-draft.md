@@ -1,10 +1,10 @@
 Draft of RAISE Manual
 =================
 
-1.  Part: beginning users
+1.  Part: Beginning
     1.  Chapter: Overviews of R & REDCap
-    1.  Chapter: Access to REDCap server
-    1.  Chapter: Manual extract
+    1.  Chapter: Access to REDCap Server
+    1.  Chapter: Manual Extract
 
 1.  Part: Automation Basics
     1.  Chapter: Reading/exporting via API

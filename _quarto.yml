@@ -73,9 +73,9 @@ book:
   chapters:
   - index.qmd
 
-  # - part: Data Entry for New Users
-  #   chapters:
-  #   - begin/support.md
+  - part: Beginning
+    chapters:
+    - begin/overview.md
   #   - begin/access.md
   #   - begin/vocab.md
   #   - begin/create.md
