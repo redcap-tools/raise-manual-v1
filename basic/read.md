@@ -13,6 +13,8 @@ author:
   - name: Kiley Yeaman
     affiliation: Children's Hospital of Philadelphia
     affiliation-url: https://www.chop.edu/
+    # email:
+    orcid: 0000-0003-4342-2062
 
   - name: William H Beasley
     affiliation: University of Oklahoma Health Sciences

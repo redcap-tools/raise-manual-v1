@@ -27,7 +27,7 @@ DOI: [10.5281/zenodo.14047108](https://zenodo.org/record/14047108)
 Editorial Committee:
 
 * [William H. Beasley](https://orcid.org/0000-0002-5613-5006): November 2024 - present
-* [Kiley Yeaman](https://www.linkedin.com/in/kileyyeaman/): November 2024 - present
+* [Kiley Yeaman](https://orcid.org/0000-0003-4342-2062): November 2024 - present
 * [Raymond Balise](https://orcid.org/0000-0002-9856-5901): November 2024 - present
 
 To cite the REDCap software, please see the suggestions at

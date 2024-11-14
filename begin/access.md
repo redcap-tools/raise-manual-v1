@@ -6,7 +6,7 @@ author:
     affiliation: Children's Hospital of Philadelphia
     affiliation-url: https://www.chop.edu/
     # email: thomas-wilson@ouhsc.edu
-    # orcid: 0000-0000-0000-0000
+    orcid: 0000-0003-4342-2062
     attributes:
       corresponding: true
 
