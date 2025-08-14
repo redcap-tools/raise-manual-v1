@@ -1,10 +1,50 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Training Manual for RAISE",
+    "section": "",
+    "text": "Welcome\nWelcome to Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. This collection of documents covers our recommendations for conducting research at your institution using R and REDCap.\nAs we write this manual, we hope you feel comfortable editing existing material or adding new lessons, in order to improve the quality of all our work.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-welcome-contribute",
+    "href": "index.html#sec-welcome-contribute",
+    "title": "Training Manual for RAISE",
+    "section": "How to Contribute",
+    "text": "How to Contribute\nWe welcome suggestions, edits, and larger contributions to this guide. This book is typeset in Markdown, rendered with Quarto, and hosted on GitHub. For errors or requests, please submit an Issue to the book’s issue tracker. To make larger or direct contributions, please make a pull request using the standard GitHub workflow.\nIf you would like to contribute but are unfamiliar with any of these technologies, please email an editorial committee member.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-welcome-cite",
+    "href": "index.html#sec-welcome-cite",
+    "title": "Training Manual for RAISE",
+    "section": "How to Cite this Work",
+    "text": "How to Cite this Work\nBalise R, Beasley WH, Yeaman K (Eds.) (2024). Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. DOI: 10.5281/zenodo.14047108\nEditorial Committee:\n\nWilliam H. Beasley: November 2024 - present\nKiley Yeaman: November 2024 - present\nRaymond Balise: November 2024 - present\n\nTo cite the REDCap software, please see the suggestions at https://projectredcap.org/resources/citations/.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-welcome-licensing",
+    "href": "index.html#sec-welcome-licensing",
+    "title": "Training Manual for RAISE",
+    "section": "Licensing",
+    "text": "Licensing\nThis book is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. Individual chapters are as well, unless otherwise noted.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
     "objectID": "begin/overview.html",
     "href": "begin/overview.html",
     "title": "1  Overviews of R and REDCap",
     "section": "",
-    "text": "1.1 R\nThe origins of R began with S, and is well documented in …\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "text": "1.1 R\nChapter Leads: Raymond Balise\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nThe origins of R began with S, and is well documented in …\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "crumbs": [
       "Beginning",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overviews of R and REDCap</span>"
@@ -26,7 +66,7 @@
     "href": "begin/access.html",
     "title": "2  Access to REDCap",
     "section": "",
-    "text": "2.1 Server\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "text": "2.1 Server\nChapter Leads: Kiley Yeaman\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "crumbs": [
       "Beginning",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Access to REDCap</span>"
@@ -59,7 +99,7 @@
     "href": "begin/manual.html",
     "title": "3  Manual Extract",
     "section": "",
-    "text": "3.1 Strengths and weaknesses of the current export\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "text": "3.1 Strengths and weaknesses of the current export\nChapter Leads: Kiley Yeaman\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "crumbs": [
       "Beginning",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Manual Extract</span>"
@@ -92,7 +132,7 @@
     "href": "basic/read.html",
     "title": "4  Read/export via API",
     "section": "",
-    "text": "4.1 Why bother with the API\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u",
+    "text": "4.1 Why bother with the API\nChapter Leads: Raymond Balise, Kiley Yeaman\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u",
     "crumbs": [
       "Automation Basics",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Read/export via API</span>"
@@ -140,46 +180,6 @@
     "crumbs": [
       "Automation Basics",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Read/export via API</span>"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Training Manual for RAISE",
-    "section": "",
-    "text": "Welcome\nWelcome to Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. This collection of documents covers our recommendations for conducting research at your institution using R and REDCap.\nAs we write this manual, we hope you feel comfortable editing existing material or adding new lessons, in order to improve the quality of all our work.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#sec-welcome-contribute",
-    "href": "index.html#sec-welcome-contribute",
-    "title": "Training Manual for RAISE",
-    "section": "How to Contribute",
-    "text": "How to Contribute\nWe welcome suggestions, edits, and larger contributions to this guide. This book is typeset in Markdown, rendered with Quarto, and hosted on GitHub. For errors or requests, please submit an Issue to the book’s issue tracker. To make larger or direct contributions, please make a pull request using the standard GitHub workflow.\nIf you would like to contribute but are unfamiliar with any of these technologies, please email an editorial committee member.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#sec-welcome-cite",
-    "href": "index.html#sec-welcome-cite",
-    "title": "Training Manual for RAISE",
-    "section": "How to Cite this Work",
-    "text": "How to Cite this Work\nBalise R, Beasley WH, Yeaman K (Eds.) (2024). Training Manual for RAISE: REDCap and R Integration for Scientific Excellence. DOI: 10.5281/zenodo.14047108\nEditorial Committee:\n\nWilliam H. Beasley: November 2024 - present\nKiley Yeaman: November 2024 - present\nRaymond Balise: November 2024 - present\n\nTo cite the REDCap software, please see the suggestions at https://projectredcap.org/resources/citations/.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#sec-welcome-licensing",
-    "href": "index.html#sec-welcome-licensing",
-    "title": "Training Manual for RAISE",
-    "section": "Licensing",
-    "text": "Licensing\nThis book is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. Individual chapters are as well, unless otherwise noted.",
-    "crumbs": [
-      "Welcome"
     ]
   }
 ]
